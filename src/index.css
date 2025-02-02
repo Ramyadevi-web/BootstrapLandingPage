@@ -10,3 +10,13 @@
     text-align: center;
     height: 100%;
   }
+ 
+  .custom-size{
+    max-width: 457px;
+    font-size: 3rem;
+  }
+
+  body {
+    margin:0px;
+  
+  }

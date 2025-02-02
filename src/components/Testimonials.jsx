@@ -14,7 +14,7 @@ function Testimonials({data}) {
               </div>
               <div className="card-body d-flex flex-column  justify-content-center align-items-center text-center">
                 <h5 className="card-title ">{item.name}</h5>
-                <p className="card-text">{item.feedback}</p>
+                <p className="card-text fs-4 w-75 text-center">{item.feedback}</p>
               </div>
             </div>
           )

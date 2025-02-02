@@ -13,9 +13,9 @@ function IconGrid({data}) {
                   <Icon size={50} color="#0d6efd"/>
                   </div>
                 
-                  <div className="card-body">
-                      <h5 className="card-title  fs-3">{item.heading}</h5>
-                      <p className="card-text fs-5 text-wrap text-break">{item.description}</p>
+                  <div className="card-body d-flex flex-column justify-content-center align-items-center ">
+                      <h5 className="card-title  fs-3 text-center">{item.heading}</h5>
+                      <p className="card-text fs-3   w-75 text-center">{item.description}</p>
                   </div>
                 </div>
                </div>);

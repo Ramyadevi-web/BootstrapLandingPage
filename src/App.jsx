@@ -21,9 +21,18 @@ import Footer from './components/Footer';
 
 function App(){
 
-    let  homeHeading = "Generate more leads with a professional landing page!";
+    let  homeHeading = [
+        {
+          
+            flag:true,
+            description:"Generate more leads with a professional landing page!"
+        }]
 
-    let callToAction = "Ready to get started?Sign up now!"; 
+    let callToAction = [
+        {
+            flag:false,
+            description:"Ready to get started?Sign up now!" 
+        }]
 
     let gridData =[
         {
